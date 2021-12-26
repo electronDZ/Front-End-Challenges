@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+.header{
+  width: 70%;
+  height: 60%;
+  background-color: hsl(0, 36%, 70%);
+}
+.card{
+  max-width: 66%;
+  margin: auto;
+  margin-top: 7%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  margin-bottom: 130px;
+}
+.con-1{
+  color: hsl(0, 6%, 24%);
+  font-size: 30px;
+  letter-spacing: 15px;
+  background: url('images/bg-pattern-desktop.svg');
+  background-size: cover;
+  width: 60%;
+  padding: 80px 100px;
+}
+.con-2 img{
+  width: 96.5%;
+}
+.we-re{
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+.con-1 p{
+  color: hsl(0, 36%, 70%);
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 30px 0; 
+  line-height : 2;
+}
+.input-feild{
+  display: flex;
+}
+#email{
+  width: 350px;
+  height: 60px;
+  padding: 20px;
+  border-radius: 100px;
+  border-color:  grey;
+  font-size: 15px;
+  position: relative;
+}
+
+#email:hover{
+  border-color: hsl(0, 93%, 68%);
+}
+.input-field img{
+  padding: 20px 46px;
+  background: linear-gradient(to right,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+  border-radius: 100px;
+  transform: translate(-71%,44%);
+  z-index: 2;
+  cursor: pointer;
+
+}
+.input-field img:hover{
+  background: linear-gradient(to right,hsl(0, 50%, 100%),hsl(0, 80%, 86%));
+}
+/* ---------- img ---------- */
+
+
+
+
+con-2{
+  
+}
+
+
+
